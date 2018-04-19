@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+    <input type="text" v-model='text' name="" id="">
+    <p>
+      <p>
+        <a>{{text}}</a>
+      </p>
+    </p>
+    <span>{{asd}}</span>
+  </div>
+  <script src="./bind/Dep.js"></script>
+  <script src="./bind/Observer.js"></script>
+  <script src="./bind/Batcher.js"></script>
+  <script src="./bind/Wather.js"></script>
+  <script src="./bind/Compile.js"></script>
+  <script src="./bind/MVVM.js"></script>
+  <script src="./lib/element.js"></script>
+  <script>
+    var vm = new Vue({
+      el: 'app',
+      data: {
+        text: 'hello world',
+        asd: '2222'
+      }
+    });
+
+
+
+
+  </script>
+</body>
+</html>
